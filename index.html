@@ -3,11 +3,23 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
         <title>Rock Paper Scissors</title>
     </head>
 
     <body>
-        <div class="msg">GUI will be implemented at a later date</div>
+        <div class="header">Rock Paper Scissors</div>
+        <div class="directions">Play against a computer to a best of 5!</div>
+
+        <div class="buttons">
+            <button type="button" class="rock"><img src="./images/rock.jpg" alt="rock"></button>
+            <button type="button" class="paper"><img src="./images/paper.jpg" alt="paper"></button>
+            <button type="button" class="scissors"><img src="./images/scissors.jpg" alt="scissors"></button>
+        </div>
+
+        <div class="results">
+            <div class="resultsText"></div>
+            <div class="score"></div>
+        </div>
     </body>
 </html>
